@@ -7,15 +7,15 @@ spec:
   replicas: 5
   selector:
     matchLabels:
-      color: blue
+      rabbti: doro
   template:
     metadata:
       labels:
-        color: blue
+        rabbit: doro
     spec:
       containers:
-      - name: blue
-        image: doro0704/keduitlab:blue
+      - name: doro
+        image: doro0704/project:doro
         resources:
           limits:
             memory: "64Mi"

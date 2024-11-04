@@ -5,7 +5,7 @@ metadata:
   namespace: argo-doro
 spec:
   selector:
-    color: blue
+    rabbit: doro
   ports:
   - port: 80
     targetPort: 80
