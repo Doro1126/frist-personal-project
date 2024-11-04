@@ -4,7 +4,7 @@ metadata:
   name: test-dp
   namespace: argo-doro
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       color: blue
