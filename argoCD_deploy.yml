@@ -7,7 +7,7 @@ spec:
   replicas: 5
   selector:
     matchLabels:
-      rabbti: doro
+      rabbit: doro
   template:
     metadata:
       labels:
